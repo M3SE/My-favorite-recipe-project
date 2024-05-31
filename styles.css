@@ -1,0 +1,33 @@
+/* This section is for index.html */
+.indexmain p {
+    color: burlywood;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+    
+
+}
+
+#title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* This section is form ingredients.html */
+.ingredientlist {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* This section is for directions.html */
+.directions {
+    font-style:oblique;
+    color:rosybrown
+}
