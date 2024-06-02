@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form Submisson</title>
+</head>
+<body>
+    <nav class="formlink">
+        <a href="directions.html">Directions</a>
+        <a href="ingredients.html">Ingredients</a>
+        <a href="index.html">About</a>
+    </nav>
+
+    <h1>Please Submit Your Feedback Here</h1>
+
+<div class="submission">
+    <form action="/submit-your-form-handler" method="POST">
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="name">Last Name:</label> 
+        <input type="text" id="name" name="name" required>      
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+<div id="messagebox">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="10" required style="width: 100%; max-width: 100%;"></textarea>
+        <button type="submit">Submit</button>
+</div>
+    </form>
+</div>
+</body>
+    
+</body>
+</html>

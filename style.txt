@@ -1,0 +1,62 @@
+/* This section is for index.html */
+.indexmain p {
+    color: burlywood;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+    align-self:flex-start;
+    flex: 1;
+    margin-top: 10px;
+    
+
+}
+.indexmain {
+    display: flex; /* Activates flexbox */
+    justify-content: flex-start;
+
+}
+
+.indexmain img {
+    width: 80%;
+    height:220px;
+    margin-right: 10px;
+    
+}
+
+
+
+
+#title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* This section is form ingredients.html */
+.ingredientlist {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* This section is for directions.html */
+.directions {
+    font-style:oblique;
+    color:rosybrown
+}
+.t1 {
+    border: 3px solid black;
+    border-style:double
+}
+
+/* This section is for form.html */
+.submission {
+    margin-top: 240px;
+    border: 3px solid black;
+
+}
+
+#messagebox {
+    display:flex;
+    justify-content:flex-start;
+    margin-top: 5px;
+    
+
+}

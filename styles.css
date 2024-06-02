@@ -1,14 +1,55 @@
 /* This section is for index.html */
+
+.indexlink {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    padding: 10px  20px;
+    border-radius: 50px;
+}
+
+.indexlink a {
+    margin: 0 70px; /* Adjust the value to set the desired space between links */
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+body {
+    background-color: beige;
+}
+
 .indexmain p {
-    color: burlywood;
+    color: darkgray;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:larger;
-    
+    align-self:flex-start;
+    flex: 1;
+    margin-top: 10px;
+    }
+
+.indexmain {
+    display: flex; /* Activates flexbox */
+    justify-content: flex-start;
 
 }
 
+.indexmain img {
+    height:300px;
+    margin-right: 10px;
+    
+}
+
+
+
+
 #title {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
 }
 
 /* This section is form ingredients.html */
@@ -16,18 +57,79 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.ingredientlistlink {
+    display:flex;
+    justify-content:space-evenly;
+}
 
-
-
-
-
-
-
+.ingredientlistlink a {
+    color:darkcyan;
+    text-decoration: none;
+}
 
 
 
 /* This section is for directions.html */
 .directions {
     font-style:oblique;
-    color:rosybrown
+    color:rgb(190, 68, 68)
+}
+
+
+
+.t1 {
+    border: 3px solid black;
+    border-style:double;
+}
+
+.directionlink {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    padding: 10px  20px;
+    border-radius: 50px;
+}
+
+.directionlink a {
+    margin: 0 70px; /* Adjust the value to set the desired space between links */
+    color: black;
+    text-decoration: none;
+}
+
+/* This section is for form.html */
+.formh1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.formlink {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    padding: 10px  20px;
+    border-radius: 50px;
+}
+
+.formlink a {
+    margin: 0 70px; /* Adjust the value to set the desired space between links */
+    color: black;
+    text-decoration: none;
+}
+
+
+/* works the submission links and positioning */
+
+.submission {
+    display:flex;
+    margin-top: 200px;
+    justify-content: center;
+
+    
+
+}
+
+#messagebox {
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
 }
