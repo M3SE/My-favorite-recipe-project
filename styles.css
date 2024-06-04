@@ -25,8 +25,8 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:larger;
     align-self:flex-start;
-    flex: 1;
-    margin-top: 10px;
+    word-wrap: left;
+    max-width: 100%;
     }
 
 .indexmain {
@@ -36,9 +36,10 @@ body {
 }
 
 .indexmain img {
-    height:300px;
-    margin-right: 10px;
-    
+    background-size:cover;
+    max-width: 100%;
+    height:auto;
+    word-wrap: left;
 }
 
 
@@ -97,6 +98,18 @@ body {
 }
 
 /* This section is for form.html */
+@media (max-width: 768px) {
+    .formmain {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .formmain {
+        height: 200px; /* Adjust height for mobile screens */
+    }
+}
+
 .formh1 {
     display: flex;
     justify-content: center;
@@ -132,4 +145,18 @@ body {
     display:flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+    .indexmain {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .indexmain {
+        height: 200px; /* Adjust height for mobile screens */
+    }
 }
